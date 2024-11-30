@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
   </head>
   
-  <body>
+  <body style="padding-bottom: 1000px;">
     <div class="header">
       <div class="left">
         <img class="menu" src="icons/Icon-1.png">
@@ -22,21 +23,56 @@
       <div class="middle">
         <input class="search-bar" type="text" placeholder="Search"> 
         <button class="search-button">
-          <img class="search-icon" src="icons/search.svg"
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
         </button>
         <button class="mic-button">
-          <img class="mic-icon" src="icons/voice-search-icon.svg"
+          <img class="mic-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
         </button>
       </div>
       <div class="right">
-        <img class="upload-icon"
+        <div class="upload-box">
+          <img class="upload-icon"
         src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+        </div>
         <img class="app-icon"
         src="icons/youtube-apps.svg">
-        <img class="bell-icon"
+        <div class="bell-box">
+          <img class="bell-icon"
         src="icons/notifications.svg">
+        <div class="bell-count">5</div>
+        </div>
         <img class="user-profile"
         src="channel-pictures/Profile.jpg">
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        Home
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        Explore
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        Subscriptions
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        Originals
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        Youtube Music
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        Library
       </div>
     </div>
     
@@ -44,6 +80,7 @@
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="thumbnails/thumbnail-1.jpg">
+          <div class="video-time">27:54</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -66,6 +103,7 @@
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="thumbnails/thumbnail-2.jpg">
+          <div class="video-time">6:31:23</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -88,6 +126,7 @@
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="thumbnails/thumbnail-3.jpg">
+          <div class="video-time">2:49</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -110,6 +149,7 @@
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="thumbnails/thumbnail-4.jpg">
+          <div class="video-time">3:29</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -132,6 +172,7 @@
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="thumbnails/thumbnail-5.jpg">
+          <div class="video-time">7:40</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -154,6 +195,7 @@
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="thumbnails/thumbnail-6.jpg">
+          <div class="video-time">3:19</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
